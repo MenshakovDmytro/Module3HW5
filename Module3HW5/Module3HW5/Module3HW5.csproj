@@ -7,15 +7,18 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Files\Hello.txt" />
-    <None Remove="Files\World.txt" />
+    <None Remove="Hello.txt" />
+    <None Remove="World.txt" />
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="Files\Hello.txt">
+    <Content Include="Hello.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Files\World.txt">
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="World.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
